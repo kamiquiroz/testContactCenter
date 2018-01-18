@@ -16,7 +16,7 @@ public class Dispatcher implements Runnable{
     Random random;
 
 
-    public Dispatcher(List<Employee> employees/*,llamadas*/){
+    public Dispatcher(){
 
 
     }
@@ -42,10 +42,11 @@ public class Dispatcher implements Runnable{
 
     }
 
-    public void start()
+    public Dispatcher start()
     {
         running = true;
         new Thread( this ).start();
+        return null;
     }
 
     public void stop()

@@ -6,8 +6,10 @@ import java.util.List;
 
 public class ContacCenterSimulator {
 
+    Dispatcher disp= Dispatcher();
+
     public static void main(String args[]){
-        List<Employee> employees= new List<Employee>();
+       /* List<Employee> employees= new List<Employee>();
         employees.add(new Employee (1,"Vanessa") );
         employees.add(new Employee (2,"Irina")   );
         employees.add(new Employee (3,"Rogelio") );
@@ -19,7 +21,7 @@ public class ContacCenterSimulator {
         employees.add(new Employee (9,"Lili")    );
         employees.add(new Employee (10,"Gisselle"));
 
-        new Dispatcher(employees).start();
+        new Dispatcher(employees).start();*/
 
     }
 }

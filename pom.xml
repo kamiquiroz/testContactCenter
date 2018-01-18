@@ -20,5 +20,17 @@
         </plugins>
     </build>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+            <type>jar</type>
+            <version>4.0</version>
+        </dependency>
+    </dependencies>
+
+
+
 
 </project>
